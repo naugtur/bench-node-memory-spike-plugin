@@ -1,0 +1,15 @@
+{
+  "name": "bench-node-memory-spike-plugin",
+  "version": "1.0.0",
+  "description": "a plugin to record and report memory allocation spikes in bench-node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test --expose-gc --allow-natives-syntax"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bench-node": "^0.2.1"
+  }
+}
